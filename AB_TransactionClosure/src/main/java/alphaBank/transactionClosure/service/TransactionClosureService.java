@@ -30,7 +30,7 @@ public class TransactionClosureService {
 	TransferMoneyRepository transferMoneyRepository;
 	AccountMongoRepository accountMongoRepository;
 	RestTemplate restTemplate = new RestTemplate();
-	@Value("${app.data.provider.service.host:http://localhost:8888}")
+	@Value("${app.data.provider.service.host:https://lit-fjord-75959.herokuapp.com}")
 	String dataProviderServiceHostAML;
 	@Value("${app.data.provider.service.host:http://localhost:8889}")
 	String dataProviderServiceHostATA;
